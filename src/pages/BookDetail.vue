@@ -2,33 +2,37 @@
     <div class="well">
         <div class="row">
             <div class="col-md-4 col-sm-12 col-md-offset-2 ">
-                <img :src="book.pic" class="img-responsive center-block book-pic"/>
+                <img :src="pic_url" class="img-responsive center-block book-pic" alt="图片加载中"/>
             </div>
-            <br>
             <div class="col-md-4 col-sm-12">
                 <p class="book-title">{{book.title}} </p>
-                <p class="book-info">作者：{{book.auther}}</p>
+                <p class="book-info">作者：{{book.author}}</p>
                 <p class="book-info">价格：{{book.price}}元</p>
+                <p class="book-info">原价：{{book.old_price}}元</p>
+                <p class="book-info">备注：{{book.remark}}</p>
                 <!--<p class="book-info">状态：<span v-html="stateToChinese"></span></p>-->
                 <!--<div v-if="book.seller.id!=user.id">-->
                 <div>
+                <!--<div v-if="book.seller.id!=user.id">-->
                     <p class="book-info">卖方：{{book.seller.name}}</p>
                     <p class="book-info">卖方手机号码：{{book.seller.phone}}</p>
                     <p class="book-info">卖方QQ：{{book.seller.qq}}</p>
                 </div>
-                <!--<div v-if="book.seller && book.seller.id==user.id">-->
-                    <!--<p class="book-info">买方：{{book.buyer.name}}</p>-->
-                    <!--<p class="book-info">买方手机号码：{{book.buyer.phone}}</p>-->
-                    <!--<p class="book-info">买方QQ：{{book.buyer.qq}}</p>-->
-                <!--</div>-->
+                <div v-if="book.buyer.name!='' && book.seller && book.seller.id==user.id">
+                    <p class="book-info">买方：{{book.buyer.name}}</p>
+                    <p class="book-info">买方手机号码：{{book.buyer.phone}}</p>
+                    <p class="book-info">买方QQ：{{book.buyer.qq}}</p>
+                </div>
                 <br>
                 <div class="btn-group">
-                    <a class="btn btn-primary" @click="buy(book)" v-if="book.state == 'buyable' ">购买</a>　
+
+                    <a class="btn btn-primary" @click="edit(book)" v-if="book.seller.id == user.id ">编辑</a>　
+                    <a class="btn btn-primary" @click="buy(book)" v-if="book.seller.id != user.id &&book.state == 'buyable' ">购买</a>　
                     <a class="btn btn-success"
                        v-if="book.state == 'selling' && (book.seller.id == user.id || book.buyer && book.buyer.id == user.id) "
                        @click="finishTrade(book)">点击完成交易</a>
                     <a class="btn btn-danger" v-if="book.seller.id == user.id" @click="deleteBook(book)">删除</a>
-                    <router-link class="btn btn-default" to="/market">返回</router-link>
+                    <a class="btn btn-default" @click="$router.back()">返回</a>
                 </div>
 
             </div>
@@ -62,10 +66,13 @@
         data(){
             return {
                 book: {
+                    id:'',
                     title: '',
                     state: '',
                     price: '',
-                    auther: '',
+                    author: '',
+                    remark: '',
+                    old_price: '',
                     seller: {
                         name: '',
                         phone: '',
@@ -76,7 +83,8 @@
                         phone: '',
                         qq: ''
                     }
-                }
+                },
+                pic_url:''
             }
         },
         computed: {
@@ -86,10 +94,14 @@
             let id = this.$route.params.id;
             $.getJSON(config.root + '/books/' + id, function (book) {
                 this.book = book;
+                this.pic_url='http://book.ckcsu.com/book_img/'+this.book.id+'.jpg?imageView2/1/w/250/h/370/interlace/0/q/100';
             }.bind(this))
         },
         methods: {
             ...mapActions(['setLoading', 'unSetLoading']),
+            edit(book){
+                this.$router.push("/edit/"+book.id);
+            },
             buy(book){
                 let context = this;
                 swal({
@@ -154,8 +166,8 @@
                                 success: function (value) {
                                     this.unSetLoading();
                                     if (value.status == 'success') {
-                                        this.$router.push('/my_book');
                                         swal("删除成功!", "该书已从书架中删除", "success");
+                                        this.$router.push('/market');
                                     } else {
                                         swal('出错', value.error, 'error');
                                     }
@@ -172,18 +184,17 @@
     }
 
     function changeState(obj, context) {
-        let token = localStorage.getItem('recybook_token');
-        console.log(context);
+        var token = localStorage.getItem('recybook_token');
         $.ajax({
             url: config.root + '/books/' + obj.book.id + '/' + obj.method,
-            data: {book: JSON.stringify(obj.book), token: token},
+            data: {token: token},
             method: "POST",
             success: function (value) {
                 context.unSetLoading();
                 if (value.status == 'success') {
                     obj.book.buyer = context.user;
                     obj.book.state = obj.newState;
-                    context.$router.go('/my_trade');
+                    context.$router.push('/my_trade');
                     swal(obj.msg.title, obj.msg.content, "success");
                 } else {
                     swal('出错', value.error, 'error');

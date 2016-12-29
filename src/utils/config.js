@@ -1,3 +1,3 @@
 export const config = {
-    root: 'http://ckcsu.sparker.top/recybook_api'
+    root: 'http://ckcsu.com/recybook_api'
 }

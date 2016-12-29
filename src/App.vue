@@ -13,7 +13,7 @@
                     <a class="navbar-brand" href="#">{{title}}</a>
                 </div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" v-show="isLogin">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
                     <ul class="nav navbar-nav">
                         <li>
                             <router-link :to="{ path: '/market', activeClass: 'active' }">市场</router-link>
@@ -29,6 +29,9 @@
                         </li>
                         <li>
                             <router-link :to="{ path: '/admin', activeClass: 'active' }">个人中心</router-link>
+                        </li>
+                        <li>
+                            <router-link :to="{ path: '/help', activeClass: 'active' }">帮助</router-link>
                         </li>
                     </ul>
                 </div>
@@ -61,8 +64,10 @@
                 'init' // map this.increment() to this.$store.dispatch('increment')
             ]),
         },
-        mounted(){
+        created(){
             this.init();
+        },
+        mounted(){
             $(".nav > li > a").click(function(){
                 $('#collapse').addClass("collapsed");
                 $('#collapse').attr("aria-expanded",false);
@@ -95,8 +100,11 @@
                     case '/admin':
                         title = '个人中心';
                         break;
+                    case '/help':
+                        title = '帮助';
+                        break;
                     default :
-                        title = '旧书回流';
+                        title = 'Good Buy Books';
                         break;
                 }
                 return title;
@@ -111,8 +119,10 @@
 </script>
 
 <style scope>
+    html,body{ height:100%}
+
     .preloader {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
         left: 0;
@@ -121,6 +131,7 @@
         height: 100%;
         display: none;
         z-index: 9999;
+
     }
 
     .preloader-active {
@@ -134,7 +145,7 @@
     }
 
     .fade-enter-active, .fade-leave-active {
-        transition: opacity .3s ease
+        transition: opacity .2s ease
     }
 
     .fade-enter, .fade-leave-active {

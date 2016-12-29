@@ -48,7 +48,7 @@
                 $.ajax({
                     method: "POST",
                     url: config.root + '/books',
-                    data: {type: 'market_books', filter: this.filter},
+                    data: {type: 'my_books', filter: this.filter, token: this.token},
                     success: function (value) {
                         this.unSetLoading();
                         if (value.status == 'success') {

@@ -1,6 +1,5 @@
 import * as types from '../mutation-types'
 import * as actions from '../actions/global'
-import ls from 'store2'
 
 
 const state = {
@@ -15,24 +14,28 @@ const mutations = {
         state.user = body.user;
         state.isLogin = true;
     },
+    [types.SET_TOKEN](state, token){
+        state.token=token;
+    },
     [types.LOGIN](state, body){
         delete body.user['password'];
         state.user = body.user;
         state.isLogin = true;
         state.token = body.token;
-        ls.set('recybook_token', body.token);
+        localStorage.setItem('recybook_token', body.token);
     },
     [types.REGISTER](state, body){
         delete body.user['password'];
         state.user = body.user;
         state.isLogin = true;
         state.token = body.token;
-        ls.set('recybook_token', body.token);
-
+        localStorage.setItem('recybook_token', body.token);
     },
     [types.LOGOUT](state){
         state.token = '';
         state.isLogin = false;
+        localStorage.removeItem('recybook_token');
+        state.user={};
     },
     [types.EDIT_USER](state, body){
         delete body.user['password'];
