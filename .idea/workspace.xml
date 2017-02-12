@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae6567a-7ed0-4d64-be22-924a5179bf71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/MyBooks.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Mytrade.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Help.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Edit.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Register.vue" afterPath="$PROJECT_DIR$/src/pages/Register.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/mutation-types.js" afterPath="$PROJECT_DIR$/src/store/mutation-types.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/BookDetail.vue" afterPath="$PROJECT_DIR$/src/pages/BookDetail.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/index.js" afterPath="$PROJECT_DIR$/src/store/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Search.vue" afterPath="$PROJECT_DIR$/src/components/Search.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Release.vue" afterPath="$PROJECT_DIR$/src/pages/Release.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Booklist.vue" afterPath="$PROJECT_DIR$/src/components/Booklist.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Admin.vue" afterPath="$PROJECT_DIR$/src/pages/Admin.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Market.vue" afterPath="$PROJECT_DIR$/src/pages/Market.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/modules/global.js" afterPath="$PROJECT_DIR$/src/store/modules/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/actions/global.js" afterPath="$PROJECT_DIR$/src/store/actions/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Login.vue" afterPath="$PROJECT_DIR$/src/pages/Login.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/config.js" afterPath="$PROJECT_DIR$/src/utils/config.js" />
     </list>
     <ignored path="my-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +44,8 @@
       <file leaf-file-name="Edit.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Edit.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="648">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="e#1825#1869#0" expanded="true" />
               </folding>
@@ -78,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDetail.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/BookDetail.vue">
+      <file leaf-file-name="Pagination.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Pagination.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="90" column="32" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -121,7 +106,6 @@
         <option value="$PROJECT_DIR$/node_modules/vuex/dist/vuex.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/pages/Admin.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/store/actions/global.js" />
         <option value="$PROJECT_DIR$/src/pages/Help.vue" />
@@ -136,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/pages/Release.vue" />
         <option value="$PROJECT_DIR$/src/components/Booklist.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/src/pages/Admin.vue" />
       </list>
     </option>
   </component>
@@ -282,10 +268,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recybook-new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recybook-new" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +301,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Edit.vue&#10;app&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/App.vue&#10;bo&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;login&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Login.vue&#10;mar&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Market.vue&#10;regi&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Register.vue&#10;bookl&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;de&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/BookDetail.vue&#10;books&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/MyBooks.vue&#10;Booklist&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;market&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Market.vue&#10;det&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/BookDetail.vue&#10;register&#9;null&#9;null&#10;editUser&#9;null&#9;null&#10;vue.js&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/node_modules/vue/dist/vue.js&#10;vue&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/node_modules/vuex/dist/vuex.js&#10;mainjs&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/main.js&#10;vuex&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/node_modules/vuex/dist/vuex.js&#10;index&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/index.html&#10;router&#9;null&#9;null&#10;MARKE&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Market.vue&#10;book&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/BookDetail.vue&#10;mark&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Market.vue&#10;admin&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Admin.vue&#10;navlis&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;nav&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;gett&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/store/getters.js&#10;navli&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;appv&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/App.vue&#10;rout&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/routers.js&#10;appvue&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/App.vue" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Admin.vue&#10;edit&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Edit.vue&#10;app&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/App.vue&#10;bo&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;login&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Login.vue&#10;mar&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Market.vue&#10;regi&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Register.vue&#10;bookl&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;de&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/BookDetail.vue&#10;books&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/MyBooks.vue&#10;Booklist&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/components/Booklist.vue&#10;market&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/Market.vue&#10;det&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/pages/BookDetail.vue&#10;register&#9;null&#9;null&#10;editUser&#9;null&#9;null&#10;vue.js&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/node_modules/vue/dist/vue.js&#10;vue&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/node_modules/vuex/dist/vuex.js&#10;mainjs&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/recybook-new/src/main.js&#10;vuex&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/node_modules/vuex/dist/vuex.js&#10;index&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/index.html&#10;router&#9;null&#9;null&#10;MARKE&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Market.vue&#10;book&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/BookDetail.vue&#10;mark&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Market.vue&#10;admin&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/pages/Admin.vue&#10;navlis&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;nav&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;gett&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/store/getters.js&#10;navli&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/components/Navlist.vue&#10;appv&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/App.vue&#10;rout&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/routers.js&#10;appvue&#9;FILE&#9;file://C:/Users/RenYi/Documents/IT/vue/my-project/src/App.vue" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\RenYi\Documents\IT\vue\my-project\node_modules\mocha" />
   </component>
   <component name="RecentsManager">
@@ -427,7 +431,11 @@
       <workItem from="1481336823862" duration="3243000" />
       <workItem from="1481438583318" duration="7820000" />
       <workItem from="1481546229518" duration="38000" />
-      <workItem from="1482972990580" duration="2000" />
+      <workItem from="1482972990580" duration="272000" />
+      <workItem from="1482981553113" duration="188000" />
+      <workItem from="1483425099401" duration="54000" />
+      <workItem from="1483425173883" duration="44000" />
+      <workItem from="1485413178822" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1477740782692</created>
@@ -436,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477740782692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update all">
+      <created>1482973023517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482973023517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119469000" />
+    <option name="totallyTimeSpent" value="120036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,16 +468,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24479167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20677084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289225" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -508,7 +523,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="update all" />
+    <option name="LAST_COMMIT_MESSAGE" value="update all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -521,13 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Pagination.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -734,24 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Admin.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/npm.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="0" column="522" selection-start-line="0" selection-start-column="522" selection-end-line="0" selection-end-column="522" />
         </state>
       </provider>
     </entry>
@@ -832,13 +827,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Edit.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/Booklist.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#1825#1869#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BookDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="33" column="105" selection-start-line="33" selection-start-column="105" selection-end-line="33" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -850,17 +849,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Booklist.vue">
+    <entry file="file://$PROJECT_DIR$/src/pages/Edit.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+        <state relative-caret-position="648">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#1825#1869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/BookDetail.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/Pagination.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="90" column="32" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="32" />
+        <state relative-caret-position="351">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Admin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
           <folding />
         </state>
       </provider>
